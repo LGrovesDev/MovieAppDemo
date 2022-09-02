@@ -39,7 +39,7 @@
                     android:layout_height="77dp"
                     android:hint="@string/search_a_movie_title"
                     android:inputType="textShortMessage"
-                    android:textColorHint="#757575" />
+                    android:textColorHint="#616161" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -64,11 +64,11 @@
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/poster_display"
             android:layout_width="match_parent"
             android:layout_height="308dp"
-            app:srcCompat="@drawable/ic_launcher_background"
-            tools:ignore="ContentDescription" />
+            app:srcCompat="@drawable/ic_launcher_foreground"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
 
         <LinearLayout
             android:id="@+id/title_holder"
