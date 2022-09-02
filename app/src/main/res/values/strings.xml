@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MovieAppDemo</string>
+    <string name="search_a_movie_title">Search a movie title…</string>
+    <string name="title">Title:</string>
+    <string name="year_released">Year Released:</string>
+    <string name="search">Search</string>
 </resources>
